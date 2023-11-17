@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.word-counter {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  resize: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.word-count {
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
